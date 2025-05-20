@@ -1,8 +1,11 @@
-torch==2.3.0
+torch==2.6.0
 torchvision==0.18.0
-transformers==4.40.0
+transformers==4.50.0
 tokenizers==0.19.1
 tiktoken==0.7.0
 tqdm==4.66.5
 cerebras_pytorch==2.3.0
 datasets==2.21.0
+grpcio>=1.58.3 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
